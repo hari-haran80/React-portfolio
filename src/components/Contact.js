@@ -11,7 +11,7 @@ const Contact = () =>{
                     <div className="ContactOne" >
                         <div className="MainDIv">
                             <div className="MailDIv">
-                                <a href="hariharan.a69@gmail.com" className="ContactLink"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="mailto:hariharan.a69@gmail.com" className="ContactLink"><i class="fa-regular fa-envelope"></i></a>
                                 <h6>hariharan.a69@gmail.com</h6>
                             </div>
                             <div className="GitDiv">

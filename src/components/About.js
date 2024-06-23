@@ -1,6 +1,6 @@
 import React from "react";
 import myImage from '../assets/myImage.png';
-import Typical from "react-typical";
+import ReactTypingEffect from "react-typing-effect";
 import DownloadButton from "./DownloadButton";
 
 
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="SubContainer">
                     <div className="Content">
                         <h5 className="Hi">HI THERE! I'M</h5>
-                        <h1 className="Name">Hari <span className="SecondName"> <Typical steps={['', 100 ,'Haran.', 1500]} loop={Infinity} wrapper="b"/></span></h1>
+                        <h1 className="Name">Hari <span className="SecondName"> <ReactTypingEffect text={['Haran.']} speed={100} eraseDelay={300}/></span></h1>
                         <p className="Description">I'm a passionate and dedicated React developer with a strong background in building dynamic and responsive web applications. With a keen eye for detail and a drive for perfection, I take pride in crafting seamless user experiences through clean and efficient code.</p>
                         <div className="Btn">
                             <DownloadButton />
