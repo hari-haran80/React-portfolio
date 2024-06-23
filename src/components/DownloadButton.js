@@ -1,5 +1,5 @@
 import React from 'react';
-import hariCv from '../assets/hari cv.pdf'
+import hariCv from '../assets/hariCv.pdf'
 import '../App.css';
 
 const DownloadButton = () => {
@@ -7,7 +7,7 @@ const DownloadButton = () => {
     const url = process.env.PUBLIC_URL + hariCv;
     const anchor = document.createElement('a');
     anchor.href = url;
-    anchor.download = 'cv.pdf'; 
+    anchor.download = 'hariCv.pdf'; 
     anchor.click();
   };
 
